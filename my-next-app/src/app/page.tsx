@@ -67,12 +67,9 @@ export default function Home() {
                 on what you need or sell items you don't.
               </p>
               <div className="flex gap-4">
-                <Link
-                  href="/sell"
-                  className="bg-white text-purple-700 px-8 py-3 rounded-lg font-semibold hover:bg-purple-50 transition"
-                >
+                <button className="bg-white text-purple-700 px-8 py-3 rounded-lg font-semibold hover:bg-purple-50 transition">
                   Start Selling
-                </Link>
+                </button>
                 <button className="bg-purple-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-purple-800 transition border border-purple-400">
                   Browse Items
                 </button>
